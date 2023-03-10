@@ -33,7 +33,7 @@ const Lootbox = () => {
   const [rarity, setRarity] = useState("");
   const [soundOn, setSoundOn] = useState(true);
 
-  function playSound(soundeffect: any) {
+  function playSound(soundeffect: string) {
     new Audio(soundeffect).play();
   }
 
