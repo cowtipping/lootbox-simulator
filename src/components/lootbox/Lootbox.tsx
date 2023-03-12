@@ -82,7 +82,7 @@ const Lootbox = () => {
       </div>
       <main>
         <LootboxImage className={open ? "open-box" : ""} />
-        <button
+        <button 
           onClick={getLootItem}
           disabled={open}
           className={!open ? "shake" : ""}
@@ -100,7 +100,7 @@ const Lootbox = () => {
             {lootReceived}
           </p>
         )}
-        <button className="sound" onClick={() => setSoundOn(!soundOn)}>
+        <button aria-label="toggle sound" className="sound" onClick={() => setSoundOn(!soundOn)}>
           {soundOn ? <GiSoundOn /> : <GiSoundOff />}
         </button>
       </main>
