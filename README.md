@@ -15,6 +15,7 @@ Other than that, I just fancied making another simple React app, because making 
 ## Technology
 
 React  
+TypeScript  
 Vite
 
 ## Testing
